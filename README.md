@@ -1,2 +1,2 @@
-# Account_Abstraction_Project
+# MERN-Ecommerce-Project
 A simple mern stack based ecommerce project.

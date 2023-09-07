@@ -7,10 +7,6 @@
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
-- [Stripe Integration](#stripe-integration)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features

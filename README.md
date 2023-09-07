@@ -55,7 +55,24 @@ Follow these instructions to get a copy of the project up and running on your lo
 ### Installation
 
 1. Clone the repository to your local machine:
-
    ```bash
    git clone https://github.com/your-username/ecommerce-platform.git
-   cd ecommerce-platform
+   ```
+   
+2. Install the server dependencies:
+   ```bash
+   cd frontend
+   npm install
+   npm run start
+   ```
+   
+3. Return to the project root directory and install the client dependencies:
+   ```bash
+   cd ..
+   cd server
+   npm install
+   npm run start
+   ```
+
+### License
+   This project is licensed under the MIT License - see the LICENSE.md file for details.

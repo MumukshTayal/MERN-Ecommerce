@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  # Node.js backend service
+  backend:
+    container_name: nodejs-backend
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    expose:
+      - 5000
+    ports:
+      - 5000:5000
+    volumes:
+      - ./backend:/app/server
+    depends_on:
+      - database
+    environment:
+      FROM_DOCKER: 'true'
+  frontend:
+    container_name: reactjs-frontend
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    expose:
+      - 3000
+    ports:
+      - 3000:3000
+    volumes:
+      - ./frontend:/app/client
+    depends_on:
+      - backend
+
+  database:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    restart: unless-stopped

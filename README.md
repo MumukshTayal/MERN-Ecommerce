@@ -15,8 +15,6 @@
 - Product Management: Admin can add, edit, and delete products.
 - Shopping Cart: Allow users to add and remove items from their cart.
 - Checkout Process: Securely process payments using Stripe.js.
-- Order Management: Track and manage customer orders.
-- Product Reviews: Enable customers to leave reviews and ratings.
 - Search and Filters: Implement search functionality and product filtering.
 - Responsive Design: Ensure a seamless shopping experience on all devices.
 

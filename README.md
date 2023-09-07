@@ -52,7 +52,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/ecommerce-platform.git
+   git clone https://github.com/MumukshTayal/MERN-Ecommerce.git
    ```
    
 2. Install the server dependencies:

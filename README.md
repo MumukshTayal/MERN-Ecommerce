@@ -1,13 +1,4 @@
-# MERN Stack Ecommerce Platform with Stripe Integration
-
-## Table of Contents
-
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [License](#license)
+# MERN Stack Ecommerce Platform
 
 ## Features
 
